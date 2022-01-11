@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contanier{
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.row{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.desc{
+    text-align: center;
+    font-family: cursive;
+}
+
+#groups-btn{
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 40px;
+}
+
+#text{
+    width: 100%;
+    padding: 10px;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    text-align: center;
+    font-size: 15px;
+}
+
+#cpu{
+    width: 100px;
+    position: relative;
+    left: 45%;
+    padding: 5px;
+    margin: 5px;
+}
+
+#user{
+    width: 100px;
+    position: relative;
+    left: 45%;
+    padding: 5px;
+    margin: 5px;
+}
+
+img{
+    width: 30%;
+}
